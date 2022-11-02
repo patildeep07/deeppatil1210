@@ -5,28 +5,36 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Generalized Elements */
+
 h1{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h3{
-    font-size: 15px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.599);
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Specific tags CSS */
 
 .main{
-    background: black;
     height: 100vh;
 }
 
 .mask-top{
-    height: 5vh;
+    background: black;
+    height: 5.5vh;
     top: 0;
 }
 
 .mask-bottom{
-    height: 5vh;
+    background: black;
+    height: 5.5vh;
     bottom: 0;
 }
 
@@ -38,3 +46,50 @@ h3{
     border-color: rgba(255, 255, 255, 0.438);
     height: 80vh;
 }
+
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Header Name and Title */
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    padding: 0 0 5px 0;
+}
+
+.title {
+    text-align: center;
+    padding: 0 0 5px 0;
+}
+
+/* Links and redirects */
+
+.links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+    margin: 10px;
+}
+
+.link {
+    margin: 0 10px 0 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.503);
+}
+
