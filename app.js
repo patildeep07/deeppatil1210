@@ -9,7 +9,7 @@ const contactSection = document.querySelector(".contact")
 
 // Function calls right at the Start
 
-hideHome()
+// hideHome()
 hideContact()
 
 
@@ -26,20 +26,18 @@ function hideContact(){
 }
 
 function showHome(){
-    console.log("Home")
     hideContact()
-    homeSection.style.display = "block"
+    homeSection.style.display = "flex"
 }
 
 function showContact(){
-    console.log("Contact")
     hideHome()
-    contactSection.style.display = "block"
+    contactSection.style.display = "flex"
 }
 
 
 // Function calls and Programming
 
-homeBtn.addEventListener("click", showHome());
+homeBtn.addEventListener("click", showHome);
 
-// contactBtn.addEventListener("click", showContact());
+contactBtn.addEventListener("click", showContact);

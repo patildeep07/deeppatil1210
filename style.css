@@ -93,3 +93,19 @@ a {
     color: rgba(255, 255, 255, 0.503);
 }
 
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 0 0 0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 0 0 0;
+}
+
